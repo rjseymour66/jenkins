@@ -22,7 +22,7 @@ This model allows the master to remain responsive to users while offloading auto
 | Name          | My Test Slave node    | Name for the slave node |
 | Description   | Executes on behalf of our master as an additional worker | Attaches a longer description to the node  |
 | # executors   | 5 | Defines how many parallel jobs can run at one time on the node | 
-| Remote root directory | C:\Jenkins\   | Deines where the slave node, its workspace, and files live on the remote system |
+| Remote root directory | C:\Jenkins\   | Defines where the slave node, its workspace, and files live on the remote system |
 | Labels | Windows Build    | Label or group that the slave belongs to. Can have multiple slaves in a lable to load balance |
 | Usage | Utilize this slave node as much as possible  | Controls how Jenkins utilizes this node |
 | Launch method | Launch slave agents via Java Web Start    | The installation and connection method used to manage the slave node |
